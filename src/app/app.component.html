@@ -1,0 +1,18 @@
+<ion-app>
+	<ion-menu side="start" contentId="app-content">
+		<ion-content>
+			<ion-list lines="none">
+				<ion-menu-toggle auto-hide="false">
+					<ion-item detail="false" [routerDirection]="'root'" routerLink="/">
+						<ion-label>
+							<ion-text color="primary">
+								Home
+							</ion-text>
+						</ion-label>
+					</ion-item>
+				</ion-menu-toggle>
+			</ion-list>
+		</ion-content>
+	</ion-menu>
+	<ion-router-outlet id="app-content"></ion-router-outlet>
+</ion-app>
